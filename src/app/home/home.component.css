@@ -20,13 +20,20 @@
 .graph{
     display: flex;
     position: relative;
-    top: 60px;
+    top: -215px;
     left: 480px;
+}
+
+.graph2{
+    display: flex;
+    position: relative;
+    top: 23px;
+    width: 900px;
 }
 
 .information{
     position: relative;
-    top: 108px;
+    top: -162px;
     left: 50px;
 }
 
