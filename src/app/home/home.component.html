@@ -1,2 +1,186 @@
 <app-nav-bar></app-nav-bar>
 
+<div class="dashboard">
+    <div class="card-name">
+        Dashboard
+    </div>
+    
+
+    <div class="container cardOriginal ">
+      <div class="graph">
+        <canvas id="myChart" height="50px"></canvas>
+      </div>
+        <div class="row mb-0 information">
+            <!-- col -->
+            <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+              <div class="d-flex align-items-center">
+                <div class="me-2">
+                  <span class="text-orange display-5"><i class="ri-wallet-2-fill"></i></span>
+                </div>
+                <div>
+                  <span>Carteira</span>
+                  <h3 class="font-medium mb-0">$3,567.53</h3>
+                </div>
+              </div>
+            </div>
+            <!-- col -->
+            <!-- col -->
+            <div class="col-lg-3 col-md-6 mb-3 mb-lg-0">
+              <div class="d-flex align-items-center">
+                <div class="me-2">
+                  <span class="text-cyan display-5"><i class="ri-money-cny-circle-fill"></i></span>
+                </div>
+                <div>
+                  <span>Gastos</span>
+                  <h3 class="font-medium mb-0">$769.08</h3>
+                </div>
+              </div>
+            </div>
+            <!-- col -->
+            <!-- col -->
+            <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+              <div class="d-flex align-items-center">
+                <div class="me-2">
+                  <span class="text-info display-5"><i class="ri-shopping-bag-fill"></i></span>
+                </div>
+                <div>
+                  <span>Economia/mês</span>
+                  <h3 class="font-medium mb-0">5489</h3>
+                </div>
+              </div>
+            </div>
+            <!-- col -->
+            <!-- col -->
+            <div class="col-lg-3 col-md-6">
+              <div class="d-flex align-items-center">
+                <div class="me-2">
+                  <span class="text-primary display-5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg></span>
+                </div>
+                <div>
+                  <span>Entrada/mês</span>
+                  <h3 class="font-medium mb-0">$23,568.90</h3>
+                </div>
+              </div>
+            </div>
+            <!-- col -->
+          </div>
+    </div>
+</div>
+
+<div class="control-panel">
+    <div class="container cardOriginal filter">
+        <div class="btn-group button">
+          <div class="filter-option">
+
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tipo
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div>
+
+          </div>       
+
+          <div class="filter-option">
+
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Status
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </div> 
+            
+          </div>      
+        </div>
+    </div>
+    
+    <div class="container cardOriginal panel">
+        <p class="card-field">Resumo de Contas</p>
+
+        <button type="button" class="btn btn-secondary add-button">+</button>
+
+        <div class="panel-information">
+          <ul>
+            <li class="field">Título</li>
+            <li class="field">Valor</li>
+            <li class="field">Tipo</li>
+            <li class="field">Recorrente</li>
+            <li class="field">Status</li>
+            <li class="field">Data de vencimento</li>
+        </ul>
+
+        <div class="income-expense">
+            <ul class="income-expense-list">
+                <li class="field">Título</li>
+                <li class="field">Valor</li>
+                <li class="field">Tipo</li>
+                <li class="field">Recorrente</li>
+                <li class="field">Status</li>
+                <li class="field">Data de vencimento</li> 
+                <button type="button" class="btn btn-danger remove-item"><i class='bx bxs-trash'></i></button>
+            </ul>
+        </div>
+
+        <div class="income-expense">
+            <ul class="income-expense-list">
+                <li class="field">Título</li>
+                <li class="field">Valor</li>
+                <li class="field">Tipo</li>
+                <li class="field">Recorrente</li>
+                <li class="field">Status</li>
+                <li class="field">Data de vencimento</li>
+                <button type="button" class="btn btn-danger remove-item"><i class='bx bxs-trash'></i></button>
+            </ul>
+        </div>
+
+        <div class="income-expense">
+          <ul class="income-expense-list">
+              <li class="field">Título</li>
+              <li class="field">Valor</li>
+              <li class="field">Tipo</li>
+              <li class="field">Recorrente</li>
+              <li class="field">Status</li>
+              <li class="field">Data de vencimento</li>
+              <button type="button" class="btn btn-danger remove-item"><i class='bx bxs-trash'></i></button>
+          </ul>
+      </div>
+
+      <div class="income-expense">
+        <ul class="income-expense-list">
+            <li class="field">Título</li>
+            <li class="field">Valor</li>
+            <li class="field">Tipo</li>
+            <li class="field">Recorrente</li>
+            <li class="field">Status</li>
+            <li class="field">Data de vencimento</li>
+            <button type="button" class="btn btn-danger remove-item"><i class='bx bxs-trash'></i></button>
+        </ul>
+    </div>
+    </div>
+  </div>
+
+  <nav aria-label="Page navigation example pagination">
+    <ul class="pagination">
+      <li class="page-item">
+        <a class="page-link" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+        </a>
+      </li>
+      <li class="page-item"><a class="page-link">1</a></li>
+      <li class="page-item"><a class="page-link">2</a></li>
+      <li class="page-item"><a class="page-link">3</a></li>
+      <li class="page-item">
+        <a class="page-link" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+        </a>
+      </li>
+    </ul>
+  </nav>

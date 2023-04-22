@@ -1,0 +1,129 @@
+.cardOriginal{
+    position: relative;
+    margin-top: 20px;
+    height: 400px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.card-name{
+    position: relative;
+    width: 100px;
+    margin-left: 300px;
+}
+
+.dashboard{
+    position: relative;
+    margin-top: 20px;
+}
+
+.graph{
+    display: flex;
+    position: relative;
+    top: 60px;
+    left: 480px;
+}
+
+.information{
+    position: relative;
+    top: 108px;
+    left: 50px;
+}
+
+.panel{
+
+    position: relative;
+    margin-top: 40px;
+    height: 290px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.panel-second{
+
+    position: relative;
+    height: 400px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.filter{
+    position: relative;
+    margin-top: 0px;
+    top: 20px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.input-group{
+    position: relative;
+    top: 10px;
+}
+
+.income-expense{
+    position: relative;
+    top: 30px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: orange;
+    margin-bottom: 5px;
+}
+
+.card-field{
+    position: relative;
+    top: 8px;
+}
+
+.field{
+    position: relative;
+    left: 20px;
+    top: 30px;
+    display: inline;
+    padding-right: 160px;
+    white-space: nowrap; 
+}
+
+.button{
+    position: relative;
+    top: 10px;
+}
+
+.income-expense-list{
+    position: relative;
+    top: -22px;
+}
+
+.add-button{
+    position: relative;
+    left: 1255px;
+    top: -25px;
+}
+
+.dashboard-message{
+    position: fixed;
+    top: 300px;
+    left: 825px;
+    color: rgba(122, 122, 122, 0.418);
+}
+
+.remove-item{
+    position: relative;
+    top: 3px;
+    height: 30px;
+    left: 1215px;
+}
+.filter-option{
+    margin-left: 10px;
+}
+
+.panel-information{
+    margin-top: -50px;
+}
+
+.pagination{
+    display: flex;
+    position: relative;
+    left: 45%;
+    top: 8px;
+}
